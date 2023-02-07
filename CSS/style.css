@@ -1,0 +1,52 @@
+
+body{
+    display: flex;
+    height: 95vh;
+    background-color: beige;
+}
+
+.calculator{
+    margin: auto;
+    width: 400px;height: 450px;
+    background-color: rgb(0, 0, 0,0.8);
+    box-shadow: 2px 2px 10px;
+    border-radius: 10px;
+    padding: 25px;
+}
+form input{
+    width: 100%; height: 20vh;
+    background-color: black;
+    color: white;
+    font-size: 3em;
+    text-align: right;
+    pointer-events: none;
+}
+.buttons{
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 20%; height: 50px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 1px 1px 1px;
+}
+.btn-black{
+    background-color: rgb(0, 0, 0,0.01);
+    color: aliceblue;
+}
+.btn-white{
+    background-color: white;
+}
+.btn-pink{
+    background-color:tomato;
+    color: white;
+}
+.btn-green{
+    background-color: seagreen;
+    color: aliceblue;
+}
